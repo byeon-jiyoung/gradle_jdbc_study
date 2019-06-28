@@ -11,6 +11,9 @@ public interface EmployeeDao {
 	int insertEmployee(Employee employee) throws SQLException ;
 	int deleteEmployee(Employee employee) throws SQLException;
 	int updateEmployee(Employee employee) throws SQLException;
+	
+	//소속부서별사원
+	List<Employee> selectEmployeeByDno(int dno) throws SQLException;
 }
 
 //ctrl + shift + o 자동 imployee
