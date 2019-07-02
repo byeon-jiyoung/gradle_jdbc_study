@@ -23,5 +23,4 @@ public class DBConnectionTest {
 			System.out.println("데이터베이스 연결 정보를 확인하세요.");
 		} 
 	}
-
 }
